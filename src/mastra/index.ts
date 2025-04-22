@@ -13,6 +13,9 @@ const logger = createLogger({
   transports: { transporter },
 });
 
+console.log(`~~~~~~~~~~~~~~~`)
+console.log(`WHAT THE HELL IS ${process.env.UPSTASH_URL} AND ${process.env.UPSTASH_TOKEN}`)
+console.log(`~~~~~~~~~~~~~~~`)
 
 
 export const mastra = new Mastra({
