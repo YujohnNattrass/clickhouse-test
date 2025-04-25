@@ -19,6 +19,6 @@ export const mastra = new Mastra({
   deployer: new VercelDeployer({
     teamSlug: 'yujohnnattrass',
     projectName: 'clickhouse-test',
-    token: process.env.V_TOKEN as string
+    token: process.env.VERCEL_API_TOKEN as string
   })
 });
